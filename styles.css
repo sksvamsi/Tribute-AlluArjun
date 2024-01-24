@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,900;1,200;1,300;1,400&display=swap');
+.main{
+    background-color: rgba(225, 190, 255, 0.727);
+    max-width: 800px;
+    border-radius: 21px 21px 57px 22px;
+    box-shadow: 10px 11px 7px -3px rgba(0,0,0,0.75);
+    padding: 20px;
+    margin: 0 auto;
+    max-height: fit-content;
+}
+.icon{
+    width: 85px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-right: 20px;
+}
+.top-heading-with-icon{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.title-and-image{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+}
+.name{
+    font-family: cursive;
+    font-size: 30px;
+}
+.image{
+    border-radius:18px 18px 52px 19px ;
+    box-shadow: 10px 11px 12px 3px rgba(11, 7, 7, 0.75);
+    width: 700px;
+    overflow: hidden;
+}
+.figcaption{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+.person-bio{
+    margin: 5px;
+    text-align: justify;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.timeline{
+    margin: 5px;
+    line-height: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+li{
+    font-size:18px;
+}
+.list-movies{
+    list-style-type:  none;
+}
+.footer{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 25px;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer-name{
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
